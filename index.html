@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Blog Codelândia - Desafio 01</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="txt-header">
+               <a class="link-home-page" href="index.html" onmouseover="mostrarElemento('img-home','inline');" onmouseout="mostrarElemento('img-home', 'none')"><h4>Codelândia<span><img id="img-home" src="imagens/home-removebg-preview.png" alt=""></span></h4></a>
+                <h4>blog</h4>
+            </div>
+            <div class="container-busca">
+                <input type="search" placeholder="Pesquisar no blog" name="busca" id="box-busca">
+                <img class="img-lupa" src="imagens/lupa.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="corpo">
+            <div class="post" onclick="abrePost()">
+                <div class="data-like-post">
+                    <p>02 de Abr, 2022</p>
+                    <a class="like" href="#">❤️</a>
+                </div>
+                <div class="container-resume-post">
+                    <p class="resume-post">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+
+            <div class="post" onclick="abrePost()">
+                <div class="data-like-post">
+                    <p>02 de Abr, 2022</p>
+                    <a class="like" href="#">❤️</a>
+                </div>
+                <div class="container-resume-post">
+                    <p class="resume-post">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+
+            <div class="post" onclick="abrePost()">
+                <div class="data-like-post">
+                    <p>02 de Abr, 2022</p>
+                    <a class="like" href="#">❤️</a>
+                </div>
+                <div class="container-resume-post">
+                    <p class="resume-post">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+            <div class="div-btn">
+                <a href="#" onmouseover="mostrarElemento('seta','inline');" onmouseout="mostrarElemento('seta', 'none')"><p class="proximo-post" id="proxima">Próxima página<img class="img-seta" id="seta" src="imagens/seta.png" alt=""></p></a>
+            </div>
+    </main>
+    <footer class="rodape">
+        <div class="info">
+            <a href="https://www.github.com/devisonreis"><img class="social" id="github" src="imagens/github.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/devison-reis/"><img class="social" id="linkedin" src="imagens/linkedin.png" alt="linkedin"></a>
+            <a href="mailto:devisonreis@hotmail.com"><img class="social" id="email" src="imagens/email.png" alt="email"></a>
+        </div>
+        <div class="container-address">
+            <address class="address">Desenvolvido por: Devison Reis</address>
+        </div>
+    </footer>
+</body>
+</html>
